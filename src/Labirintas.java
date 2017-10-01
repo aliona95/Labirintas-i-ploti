@@ -153,6 +153,7 @@ public class Labirintas {
                     prevLabkop = LABKOP[X][Y] - 1;
                 }
                 System.out.println("    Uždaroma UZD=" + ++counter + ", X="+ X + ", Y=" + Y + ".");
+                --counter;
                 output.write("    Uždaroma UZD=" + ++counter + ", X="+ X + ", Y=" + Y + ".\n");
                 K = 0;
                 do {
